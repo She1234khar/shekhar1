@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+  <title>Document</title>
+</head>
+<body>
+  <header>
+<a href="#" class="logo">She<span>khar</span></a>
+<ul class="nav">
+  <li><a href="#home" class="active">Home</a></li>
+  <li><a href="#about">About</a></li>
+  <li><a href="#resume">Resume</a></li>
+  <li><a href="#portfolio">Project</a></li>
+  <li><a href="#contact">Contact</a></li>
+</ul>
+<div class="right-header">
+  <a href="#" class="btn">Let's Chat</a>
+</div>
+
+
+    
+  </header>
+
+<section id="home">
+  <div class="hero">
+    <h3>Welcome To my Website</h3>
+    <h1>Hi I'm Shekhar</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde odit sunt exercitationem, quam praesentium atque, vel quis iste aliquid debitis ab repellat ducimus quaerat rerum adipisci a soluta neque mollitia.</p>
+
+    <div class="btn-box">
+      <a href="#" class="btn">Hire Me</a>
+      <a href="#" class="btn b-cv">Download CV</a>
+    </div>
+<div class="social-media">
+  <div class="bg-icon">
+    <a href="#"><i class='bx bxl-instagram'></i></a>
+    <span></span>
+  </div>
+  <div class="bg-icon">
+    <a href="#"><i class='bx bxl-github'></i></a>
+    <span></span>
+  </div>
+  <div class="bg-icon">
+    <a href="#"><i class='bx bxl-twitter'></i></a>
+    <span></span>
+  </div>
+  
+  <div class="bg-icon">
+    <a href="#"><i class='bx bxl-facebook'></i></a>
+    <span></span>
+  </div>
+</div>
+
+  </div>
+
+  <div class="img-box">
+    <img src="profile.jpg">
+  </div>
+</section>
+<hr>
+<section id="about">
+  <div class="content">
+    <h1 class="heading">About Me</h1>
+    <p class="text">Hi, I’m Shekhar Kumar Singh, a passionate frontend developer and a B.Tech student at the Indian Institute of Information Technology (IIIT).
+
+      I specialize in creating user-friendly and visually appealing web interfaces using <span class="tr">HTML , CSS, JavaScript, and React.js.</span> With a strong foundation in problem-solving, I love tackling challenges and building innovative solutions that enhance user experiences.
+      
+      My journey in web development has been fueled by curiosity and a desire to bridge the gap between design and functionality. Whether it’s crafting responsive layouts, implementing dynamic features, or optimizing performance, I am committed to delivering high-quality results.
+      
+      </p>
+      <div class="skills">
+        <h2>Skills and Expertise</h2>
+        <p class="text1">
+          1. Frontend Development: HTML, CSS, JavaScript, React.js</p>
+          <p class="text1">
+          2. Problem-Solving: Analytical and structured approach to challenges</p>
+          <p class="text1">
+          3. Responsive Design: Ensuring seamless experiences across devices</p>
+      </div>
+  </div>
+</section>
+
+
+<section id="resume">
+  <div class="resume-content">
+    
+    <h1 class="heading">My Professional Resume</h1>
+    
+    <p class="text">
+      Discover my professional experience, technical skills, and key projects. Feel free to download my detailed resume to know more.
+    </p>
+    <div class="btn-box">
+    
+      <a href="RESUME-2.pdf" download="My_Resume_Shekhar.pdf" class="btn b-cv" onclick="handleResumeDownload()">Download CV</a>
+    </div>
+    
+    <div id="download-message" style="display: none; margin-top: 10px; color: green; font-weight: bold;">Resume downloaded successfully!</div>
+  </div>
+</section>
+
+
+<section id="portfolio">
+  <h1 class="heading">My Projects</h1>
+  <div class="project-grid">
+    <div class="project-card">
+      <img src="project1.jpg" alt="Project 1">
+      <h2>Portfolio Website</h2>
+      <p>A responsive portfolio website built with HTML, CSS, and JavaScript.</p>
+      <a href="#" class="btn">View Project</a>
+    </div>
+    <div class="project-card">
+      <img src="project2.jpg" alt="Project 2">
+      <h2>E-commerce Store</h2>
+      <p>An e-commerce website with React.js and Firebase integration.</p>
+      <a href="#" class="btn">View Project</a>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h1 class="heading">Contact Me</h1>
+  <form >
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <button type="submit" class="btn">Send Message</button>
+  </form>
+</section>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js" integrity="sha512-nKZDK+ztK6Ug+2B6DZx+QtgeyAmo9YThZob8O3xgjqhw2IVQdAITFasl/jqbyDwclMkLXFOZRiytnUrXk/PM6A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
